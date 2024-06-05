@@ -11,7 +11,8 @@
     "db": "npx dotenv -e .env.local -- prisma migrate dev",
     "studio": "npx dotenv -e .env.local -- prisma studio",
     "dev": "docker-compose up -d && next dev",
-    "prod:build": "prisma generate --allow-no-models && npx prisma migrate deploy && next build"
+    "prod:build": "next build"
+
   },
   "dependencies": {
     "@types/node": "18.15.3",
