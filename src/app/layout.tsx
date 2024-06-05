@@ -4,7 +4,7 @@ import "./globals.css";
 // FIXME: change this
 export const metadata = {
   title: "pSEO",
-  description: "A  programmatic SEO",
+  description: "A programmatic SEO",
 };
 
 export default function RootLayout({
